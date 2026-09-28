@@ -1,32 +1,38 @@
-*`<p>`Listed Items..........`</p>`*
--it called paragraph tag. The contents written inside it will in one para
+`<p>` is called the paragraph tag. The content written inside it will be in one paragraph.
 
-*`<h1>`Junaid Nahin`</h1>`*
--it is heading tag h1 is the largest heading after that h2 is lower than h1......h6 is the lowest heading tag
+`<h1>` is the heading tag. `<h1>` is the largest heading, then `<h2>` is smaller, and `<h6>` is the smallest.
 
-```<ul>
+```html
+<ul>
     <li>Shoe</li>
     <li>Sock</li>
-</ul>```
+</ul>
+```
 
--*<ul>...</ul>* is unordered list items items kept inside it using *<li>..</li>* tag do not maintain order and use symbol at the begining of each item*
+`<ul>...</ul>` is the unordered list. Items are kept inside it using the `<li>...</li>` tag. It does not maintain order and uses a symbol at the beginning of each item.
 
-```<ol>
+```html
+<ol>
     <li>Tanzid</li>
     <li>Saif</li>
     <li>Shanto</li>
-'</ol>```
+</ol>
+```
 
--*<ol>...</ol>* is ordered list items items kept inside it using *<li>..</li>* tag maintainig order and use numbers at the begining of each item*
+`<ol>...</ol>` is the ordered list. Items are kept inside it using the `<li>...</li>` tag. It maintains order and uses numbers at the beginning of each item.
 
-```<select name="" id="">
+```html
+<select name="" id="">
     <option value="tea">tea</option>
     <option value="coffee">coffee</option>
     <option value="drinks">cold coffee</option>
-'</select>```
+</select>
+```
 
--**It creates a combo box select tag stores the items of the option tag that are shown in the combo box
+The `<select>` tag creates a combo box (dropdown). It stores the items of the `<option>` tags that are shown in the combo box.
 
-```<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyToHgbacDJTameKSBDcsGhGmQYXa03GWASFVxj6-YwJLzhX4nl2h5ZDd17Ji9VcGF3KH4mjzheXQsQHURMhgc605-6pjiVdfLKBAI_3flFA&s=10" alt="Goat is coming">```
+```html
+<img src="YOUR_IMAGE_URL_HERE" alt="Goat is coming">
+```
 
--**It is the tag to show an image inside img the url is the url of the image that will be shown in the website and in case of unavailability of the image it will show the text written in the alt.**
+The `<img>` tag shows an image. The `src` is the URL of the image that will be shown on the website, and if the image is unavailable, it shows the text written in `alt`.
