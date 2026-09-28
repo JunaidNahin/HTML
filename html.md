@@ -2,11 +2,11 @@
 
 # Forms
 
-<form >
+
         <label for="name"> Name:
            <input type="text" name="" id="name" placeholder="Your name">
         </label>
-</form>
+
 
 *form will be created insige form tag.* 
 
